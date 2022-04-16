@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qitah</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'> <!-- Import icons -->
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <!-- navbar -->
+        <div class="nav container">
+            <!-- logo -->
+            <a href="#" class="logo">Qitah</a>
+            <!-- navbar -->
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Protfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <!-- Menu Icon -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home container" id="home">
+        <div class="home-content">
+            <!-- home img -->
+            <div class="home-img">
+                <img src="img/WhatsApp Image 2022-04-07 at 10.08.57 AM.jpeg" alt="">
+            </div>
+            <!-- home text -->
+            <div class="home-text">
+                <h3>Hello</h3>
+                <h2>I'm <span class="color">Abdullah Qitah</span></h2>
+                <p>
+                    I'm a<span class="color"> fresh graduated </span>student with <span class="color">Bachelor's degree in CS</span>, I have strong passion for building usefull web applications and i built a few projects using <span class="color">React</span> and<span class="color">  Django</span> frameworks
+                    Here's a bit more <span class="color">about me.</span>
+                </p>
+            </div>
+            <!-- social media -->
+            <div class="social">
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about container" id="about">
+        <h2 class="heading">About</h2>
+        <div class="about-content">
+            <div class="about-data">
+                <span>ABOUT ME</span>
+                <h1>Fresh graduated with<br> Bachelor's degree in CS, <br>interested in web <br>development</h1>
+                <a href="CV.pdf" class="btn" download="">Dawonload Cv <i class='bx bx-download'></i></a>
+            </div>
+            <div class="about-text">
+                <p>aaaaaaaaaaaaaa aaaaa aaaa aaaa aaa aaa aaa aaa aaa aa aaaa aa  </p>
+                <p>aaaaaaaaaaa aaaa a a a aaaaaaa  aaaaaa aaa aa aa aa aa a a</p>
+                <p>aaaaaaaaaaaaaaa a a  aaaaa aaaa  aaa aaa aaa</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Protfolio -->
+    <section class="portfolio container" id="portfolio">
+        <!-- heading -->
+        <h2 class="heading">Portfolio</h2>
+        <!-- portfolio content -->
+        <div class="portfolio-content">
+            <div class="portfolio-box">
+                <img src="img/django.png" alt="" class="portfolio-img">
+                <!-- overlay -->
+                <div class="portfolio-overlay">
+                    <h1>Image Classification Using CNN<br>
+                        (Django web app)</h1>
+                    <a href="#">
+                        <i class='bx bx-link'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/django.png" alt="" class="portfolio-img">
+                <!-- overlay -->
+                <div class="portfolio-overlay">
+                    <h1>NLP Arabic Text Summarization<br>
+                        (Django web app)</h1>
+                    <a href="#">
+                        <i class='bx bx-link'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/django.png" alt="" class="portfolio-img">
+                <!-- overlay -->
+                <div class="portfolio-overlay">
+                    <h1>Image Classification Using Deep Learning<br>
+                        (React web app)</h1>
+                    <a href="#">
+                        <i class='bx bx-link'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/django.png" alt="" class="portfolio-img">
+                <!-- overlay -->
+                <div class="portfolio-overlay">
+                    <h1>Image Classification Using Deep Learning<br>
+                        (React web app)</h1>
+                    <a href="#">
+                        <i class='bx bx-link'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+     <section class="contect container" id="contact">
+         <!-- heading -->
+        <h2 class="heading">Contact</h2>
+        <!-- contact contant -->
+            <form action="" class="contact-form">
+                <input type="text" placeholder="Your name" class="name">
+                <input type="email" placeholder="Email address..." class="email">
+                <textarea name="" id="" cols="" rows="10" placeholder="Write message here..." class="message"></textarea>
+                <input type="submit" value="send" class="send-btn">
+            </form>
+     </section>   
+
+     <!-- footer -->
+     <section class="footer-container">
+         <div class="copyrihgt">
+            <p>&#169; Created By Abdullah Qitah</p>
+         </div>
+     </section>
+
+    <!-- email Js Link -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- sweetalert link -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript"> 
+    (function(){
+        emailjs.init('z5g_r3_jHfQ_mQWVr')
+    })();
+    </script>
+
+    <!-- link javascript file -->
+    <script src="js/meain.js"></script>
+</body>
+</html>
