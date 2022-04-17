@@ -355,7 +355,7 @@ header{
     font-weight: 600;
 }
 
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 395px) {
     /* nanpar */
     header{
         width: 100%;
@@ -401,11 +401,14 @@ header{
 
     /* home */
     .home{
-        max-width: 340px;
+        max-width: 750px;
+        min-width: 626px;
+        margin: auto;
     }
     .home-content{
-        width: 100%;
+        width: 95%;
         gap: 1.6rem;
+        margin: auto;
     }
     .home-img{
         margin-top: 100px;
@@ -440,7 +443,6 @@ header{
         margin: auto;
         width: 95%;
         row-gap: 2.6rem;
-        border: solid black 2px
     }
     .about-data span{
         font-size: 2rem;
@@ -480,12 +482,11 @@ header{
     .contact-form{
         max-width: 600px;
         min-width: 500px;
-        padding: 50px;
         height: 700px;
         margin: auto;
     }
     .contect{
-        max-width: 600px;
+        max-width: 750px;
         min-width: 626px;
         margin: auto;
         padding-bottom: 0px;
