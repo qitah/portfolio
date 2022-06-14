@@ -227,7 +227,7 @@ header{
 }
 .about-data h1{
     font-size: 1.5rem;
-    line-height: 2.6rem;
+    line-height: 2rem;
     margin: 1rem 0;
 }
 .btn{
@@ -247,6 +247,7 @@ header{
 }
 .about-text p{
     font-size: .938rem;
+    line-height: 2rem;
     letter-spacing: 1px;
     text-align: justify;
     margin-bottom: 2.35rem;
